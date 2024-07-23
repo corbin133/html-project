@@ -1,0 +1,222 @@
+.navBar {
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white; 
+    font-family: "Ubuntu", "san-serif";
+    font-size: 1.25em;
+}
+
+.navBar > .left-column img {
+    width: 300px;
+    height: 100%;
+    margin-left: 15px;
+}
+
+.navBar > .center-column {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 45px;  
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.navBar > .center-column > .pens {
+    margin-right: 5px;
+}
+
+.navBar > .center-column > .projects {
+    margin-right: 5px;
+}
+
+.navBar > .center-column > .posts {
+    margin-right: 5px;
+}
+
+.navBar > .center-column > .collections {
+    margin-right: 30px;
+}
+
+.navBar > .center-column > .spark {
+    color: grey;
+    /* font-weight: 400; */
+}
+
+.navBar > .center-column > .spark-arrow {
+    margin-left: 10px;
+    margin-top: 1px;
+    color: grey;
+    font-weight: 400;
+}
+
+.navBar > .right-column {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-left: 150px;
+    margin-right: 25px;
+    font-size: 1.15em;
+}
+
+.navBar > .right-column > .create-btn {
+    background-color: rgb(62, 62, 62);
+    padding: 18px;
+    text-align: center;
+    height: 30px;
+    width: 100px;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.navBar > .right-column > .create-btn i {
+    color: green;
+}
+
+.navBar > .right-column > .search-btn {
+    font-size: 1.7em;
+    margin-top: 10px;
+}
+
+.navBar > .right-column > .log-in-btn {
+    background-color: rgb(62, 62, 62);
+    padding: 18px;
+    text-align: center;
+    height: 30px;
+    width: 85px;
+    border-radius: 3px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.navBar > .right-column > .sign-up-btn {
+    background-color: rgb(62, 62, 62);
+    padding: 18px;
+    text-align: center;
+    height: 30px;
+    width: 90px;
+    border-radius: 3px;
+}
+
+.content-wrapper {
+    height: 662px;
+    background-color: rgb(44, 55, 63);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: 'Ubuntu', 'san-serif';
+    color: white;
+}
+
+.content-wrapper > .left-section {
+    font-family: 'Quicksand', 'san-serif';
+    margin-left: 65px;
+    margin-top: 20px;
+    width: 788px;
+}
+
+.content-wrapper > .left-section h1 {
+    font-size: 2.3em;
+    font-weight: 400;
+    margin-top: 55px;
+}
+
+.content-wrapper > .left-section > .content-header i {
+    color: yellow;
+}
+
+.content-wrapper > .left-section p {
+    font-size: 2.1em;
+}
+
+.content-wrapper > .left-section span {
+    font-weight: 700;
+}
+
+.content-wrapper > .left-section > .content-btns {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 2em;
+    margin-right: 241px;
+}
+
+.content-wrapper > .left-section > .content-btns > .learn-more-btn {
+    background-color: black;
+    padding: 22px;
+    border-radius: 3px;
+    font-weight: 550;
+}
+
+.content-wrapper > .left-section > .content-btns > .sign-up-free-btn {
+    background-color: rgb(1, 208, 1);
+    color: black;
+    padding: 22px;
+    border-radius: 3px;
+    margin-right: 35px;
+    font-weight: 550;
+}
+
+.content-wrapper > .right-section img {
+    margin-top: -16px;
+    margin-left: 15px;
+    width: 650px;
+    box-shadow: -2px -2px 18px -2px black;
+}
+
+.content-wrapper > .right-section p {
+    margin-left: 18px;
+    margin-top: 89px;
+    font-size: 1.5em;
+}
+
+.content-wrapper > .right-section span {
+    color: aqua;
+}
+
+.features-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    color: whitesmoke;
+    background-color: rgb(62, 62, 62);
+    padding: 22px;
+    font-size: 1.25em;
+    font-family: 'Ubuntu', 'san-serif';
+}
+
+.features-wrapper > .team-feature {
+    padding: 10px;
+}
+
+.features-wrapper > .team-feature span {
+font-size: 1.4em;
+font-weight: 600;
+}
+
+.features-wrapper > .education-feature {
+    padding: 10px;
+}
+
+.features-wrapper > .education-feature span {
+    font-size: 1.4em;
+    font-weight: 600;
+}
+
+.features-wrapper > .privacy-feature {
+    padding: 10px;
+}
+
+.features-wrapper > .privacy-feature span {
+    font-size: 1.4em;
+    font-weight: 600;
+}
+
+.features-wrapper > .writing-feature {
+    padding: 10px;
+}
+
+.features-wrapper > .writing-feature span {
+    font-size: 1.4em;
+    font-weight: 600;
+}
